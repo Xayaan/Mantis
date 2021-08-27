@@ -1,0 +1,11 @@
+.chartContainer {
+  position: relative;
+  margin: auto;
+  width: 60vw;
+  padding: 12px 0px 38px 0px;
+}
+
+.padding {
+  margin-bottom: 1%;
+}
+  

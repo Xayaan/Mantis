@@ -1,0 +1,21 @@
+// +++++++++++++++++++++ //
+// +++ WHAT IS THIS? +++ //
+// +++++++++++++++++++++ //
+
+// This state file provides metadata to the ImageDrawer.tsx, which is used in many parts of the app.
+// So that users can easily cycle between pages without losing their data, we store multiple "batches"
+// of images in the state. Storing batches of random images prevents having to make constant API 
+// requests for individual images. Constant requests will make the site needlessly complex and slow.
+
+// As the dataset grows, we will need to look at alternative solutions so that the middleware isn't too
+// clogged. Adding garbage collection, limiting images per batch, etc. Concerns for later. 
+
+
+// +++++++++++++++++++++ //
+// +++ IMAGE BATCHES +++ //
+// +++++++++++++++++++++ //
+
+// [1] Batch Upload 
+// [2] Verification  
+// [3] IC (Image Classification)
+// [4] OD (Object Detection)

@@ -1,0 +1,66 @@
+/* Individual Buttons */
+.multipleButton {
+    position: relative;
+    display: inline-flex;
+    left: 0;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+/* Wrappers */
+.multipleButtonsWrapButton {
+    flex-wrap: wrap;
+    width: 35px;
+    margin-left: 9px;
+    top: -5px;
+    background: white;
+    border-radius: 55px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.multipleButtonsWrapButtonSingular {
+    flex-wrap: wrap;
+    width: 35px;
+    margin-left: -6px;
+    top: -5px;
+    background: white;
+    border-radius: 55px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.multipleButtonsWrapButtonAccepted {
+    flex-wrap: wrap;
+    width: 35px;
+    margin-left: -6px;
+    top: -5px;
+    background: lightgreen;
+    border-radius: 55px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.multipleButtonsWrapButtonDenied {
+    flex-wrap: wrap;
+    width: 35px;
+    margin-left: -6px;
+    top: -5px;
+    background: lightcoral;
+    border-radius: 55px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+  
+.multipleButtonsWrapButton:hover {
+    transform: scale(1.2);
+}

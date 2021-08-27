@@ -1,0 +1,15 @@
+.Padding { 
+    padding-top: 5%;
+}
+
+.PhotoDrawer {
+    border: blueviolet 3px;
+}
+
+.center {
+    display: flex;
+}
+
+.lowerCenter {
+    display: block;
+}

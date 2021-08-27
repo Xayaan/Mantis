@@ -1,0 +1,71 @@
+.large {
+	font-size: large;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.chartContainer {
+  position: relative;
+  margin: auto;
+  width: 60vw;
+  padding: 12px 0px 38px 0px;
+}
+
+.verificationGraph {
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+    justify-items: center;
+}
+
+.padding {
+  margin-bottom: 1%;
+}
+
+.tagTitle {
+	position: relative;
+	left: 100px;
+	top: 69px;
+}
+
+ul.metrics {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+
+ul.metrics li {
+	padding: 4vw;
+	margin: 1vw;
+	background-color: #6C6C6C;
+}
+
+ul.metrics a:hover {
+	background-color: var(--brand-pink)
+}
+
+ul.metrics a li:hover {
+	background-color: var(--brand-pink)
+}
+
+
+ul.metrics li h1 {
+	color:white;
+}
+
+ul.metrics li h5 {
+	color: white;
+}
+
+
+ul.metrics a {
+	color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+

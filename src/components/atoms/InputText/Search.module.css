@@ -1,0 +1,42 @@
+.searchTag {
+	background: var(--header-background-color);
+	padding: 4rem;
+}
+
+.searchTag input {
+	background: var(--header-background-color);
+	color: #999;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	max-width: 40rem;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #999;
+}
+.searchTag input:focus {
+	outline: none;
+}
+.searchTag input:focus ~ label, .searchTag input:valid ~ label,
+.searchTag textarea:focus ~ label,
+.searchTag textarea:valid ~ label {
+	top: -14px;
+	font-size: 12px;
+	color: #2196F3;
+}
+.searchTag input:focus ~ .bar:before,
+.searchTag textarea:focus ~ .bar:before {
+	width: 40rem;
+}
+
+.searchTag label {
+	color: #999;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: 300ms ease all;
+}

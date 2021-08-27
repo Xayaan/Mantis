@@ -1,0 +1,29 @@
+.border {
+    background-color: var(--header-background-color);
+    border: solid var(--border-color) 1px;
+    display: flex;
+}
+
+.dropdown {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.dropdown p {
+    border-right: 1px solid var(--border-color);
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caret {
+    fill: var(--border-color);
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.caret svg {
+    max-width: 60%;
+    padding-top: 6px;
+    transition: transform 0.2s ease-out;
+}

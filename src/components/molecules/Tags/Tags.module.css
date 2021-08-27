@@ -1,0 +1,114 @@
+.tags {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-top: calc(var(--spacer)/2);
+  margin-left: calc(var(--spacer)/2);
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 13px;
+  padding: 0.4rem .4rem 0.4rem 2.2rem;
+  margin-left: calc(var(--spacer) / 8);
+  margin-right: calc(var(--spacer) / 8);
+  margin-bottom: calc(var(--spacer) / 4);
+  background: var(--tags-color);
+  text-align: center;
+  border-radius: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+  cursor: default;
+  margin-bottom: 15px;
+}
+
+.verificationTagWrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 13px;
+  padding: 0.4rem .4rem 0.4rem 2.2rem;
+  margin-left: calc(var(--spacer) / 8);
+  margin-right: calc(var(--spacer) / 8);
+  margin-bottom: calc(var(--spacer) / 4);
+  background: var(--brand-pink);
+  text-align: center;
+  border-radius: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+  cursor: default;
+}
+
+
+/* 
+  background: var(--brand-alert-green);
+  background: var(--brand-alert-orange);
+*/
+
+.flexWrapButton {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 2px;
+  left: -2px;
+  background: rgba(0,0,0,0);
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.singleImageTag {
+  color: var(--brand-white);
+  font-size: var(--font-size-medium);
+  margin-right: calc(var(--spacer) / 8);
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: default;
+  font-weight: bold;
+}
+
+.multipleImageTag {
+  color: var(--brand-white);
+  font-size: var(--font-size-small);
+  padding: 0.28rem 1.2rem 0.28rem 2.2rem;
+  margin-left: calc(var(--spacer) / 8);
+  margin-right: calc(var(--spacer) / 8);
+  margin-bottom: calc(var(--spacer) / 4);
+  background: var(--brand-pink);
+  text-align: center;
+  border-radius: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+.singleButton {
+  position: relative;
+  display: inline-flex;
+  left: 0;
+  width: 31px;
+  top: -1px;
+  cursor: pointer;
+}
+
+.tag:hover:not(span),
+.tag:focus:not(span) {
+  color: inherit;
+}
+
+.more {
+  font-size: var(--font-size-mini);
+  margin-left: calc(var(--spacer) / 8);
+}

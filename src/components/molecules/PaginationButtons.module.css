@@ -1,0 +1,27 @@
+.paginationRow {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationRow Button {
+    min-height: 35px;
+}
+
+.paginationRow Button:first-of-type {
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    min-width: 75px;
+}
+
+.paginationRow Button:first-of-type {
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    min-width: 75px;
+}
+
+.paginationRow Button:last-of-type {
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    min-width: 75px;
+}

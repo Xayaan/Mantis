@@ -1,0 +1,49 @@
+.wrapperSingle {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13px;
+    padding: 0.4rem .4rem 0.4rem 2.2rem;
+    margin-left: calc(var(--spacer) / 8);
+    margin-right: calc(var(--spacer) / 8);
+    margin-bottom: calc(var(--spacer) / 4);
+    background: var(--brand-grey-light);
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-items: center;
+    cursor: default;
+  }
+
+.wrapperMultiple {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 13px;
+    padding: 0.4rem .4rem 0.4rem 2.2rem;
+    margin-left: calc(var(--spacer) / 8);
+    margin-right: calc(var(--spacer) / 8);
+    margin-bottom: calc(var(--spacer) / 4);
+    background: var(--brand-pink);
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-items: center;
+    cursor: default;
+  }
+
+.tag {
+    color: var(--brand-white);
+    font-size: var(--font-size-medium);
+    margin-right: calc(var(--spacer) / 8);
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: default;
+    font-weight: bold;
+}

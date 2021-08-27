@@ -1,0 +1,9 @@
+.ImageView {
+    margin-top: var(--spacer);
+    margin-bottom: var(--spacer);
+    padding: calc(var(--spacer) / 10) var(--spacer);
+}
+
+.Padding {
+    padding-top: 2%;
+  }

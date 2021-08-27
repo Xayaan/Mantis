@@ -1,0 +1,23 @@
+.challengeIcon {
+
+}
+
+.challengeText p {
+    font-size: larger;
+}
+
+.challengeBox {
+    background: var(--node-background-color);
+    padding: 1.5vw;
+    margin: 1vw;
+    width: 70%;
+}
+
+.challengeBox h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* a:hover {
+	background-color: var(--brand-pink);
+} */

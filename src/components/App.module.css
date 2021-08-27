@@ -1,0 +1,40 @@
+/* INSIDE .app, if we want Ocean's Waves logo */
+/* 
+background: url('../../node_modules/@oceanprotocol/art/waves/waves.svg')
+  no-repeat center 13.5rem;
+*/
+.app {
+  height: 100%;
+
+  /* sticky footer technique */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+@media (min-width: 2000px) {
+  .app {
+    background-size: contain;
+  }
+}
+
+.app > * {
+  width: 100%;
+}
+
+.main {
+  padding: calc(var(--spacer)) 0 calc(var(--spacer)) 0;
+
+  /* sticky footer technique */
+  flex: 1;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+}
+
+.main > div[class*='Alert']:first-child {
+  margin-top: -2rem;
+}
+
+.main > div[class*='Alert'] {
+  margin-bottom: calc(var(--spacer) / 1.5);
+}

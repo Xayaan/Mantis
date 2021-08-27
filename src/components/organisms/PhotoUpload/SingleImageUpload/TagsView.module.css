@@ -1,0 +1,6 @@
+.tagViewOneImage {
+    font-size: var(--font-size-small);
+    margin-bottom: var(--spacer);
+    min-width: 55vw;
+    margin-top: 2rem;
+}

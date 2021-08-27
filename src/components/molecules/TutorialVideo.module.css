@@ -1,0 +1,16 @@
+.tutorial {
+    background: var(--node-background-color);
+    color: var(--brand-black);
+    font-size: large;
+    margin: 0.1vw;
+    padding: 0.2vw;
+}
+
+.tutorialTitle {
+    padding-top: 20px;
+}
+
+.tutorialText {
+    color: var(--font-color-text);
+    width: 70%;
+}

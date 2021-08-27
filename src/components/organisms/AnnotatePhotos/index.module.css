@@ -1,0 +1,18 @@
+.theme {
+    color: black;
+}
+
+.dropdownLocation {
+    text-align: right;
+}
+.dropdownLocation p {
+    margin-bottom: 5px;
+}
+
+.padding {
+    padding-top: 20px;
+}
+
+.signalPadding {
+    margin-top: 20px;
+}

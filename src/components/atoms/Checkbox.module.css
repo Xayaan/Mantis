@@ -1,0 +1,6 @@
+input[type=checkbox] {
+    opacity: 1 !important;
+    -moz-appearance: checkbox !important;
+    -webkit-appearance: checkbox !important;
+     width:15px;
+}

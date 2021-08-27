@@ -1,0 +1,29 @@
+.batchFileInfoGrid {
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.batchFileBoxGreen {
+    border: solid black 1px;
+    padding: 0.2em;
+    background-color: lightgreen;
+    opacity: 0.5;
+}
+
+.batchFileBoxRed {
+    border: solid black 1px;
+    padding: 0.2em;
+    background-color: red;
+    opacity: 0.5;
+}
+
+.batchFileBoxWhite {
+    border: solid black 1px;
+    padding: 0.2em;
+    background-color: white;
+}
+
+.clicked {
+    opacity: 1;
+}

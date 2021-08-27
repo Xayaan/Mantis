@@ -1,0 +1,39 @@
+.wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--header-background-color);
+}
+
+.descriptionButton {
+    border-radius: 55px;
+    height: 30px;
+}
+
+.descriptionButtonDeclined {
+    border-radius: 55px;
+    height: 30px;
+    background: lightcoral;
+}
+
+.descriptionButtonAccepted {
+    border-radius: 55px;
+    height: 30px;
+    background: lightgreen;
+}
+
+.verifyInstruction {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.descriptionVerify {
+    background: var(--header-background-color);
+}
+
+.verifyDescription {
+    margin-bottom: 5px;
+}
+
+.descriptionVerifyButtonsWrapper {
+    padding-bottom: 10px;
+}

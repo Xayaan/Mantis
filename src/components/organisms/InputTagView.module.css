@@ -1,0 +1,44 @@
+.tagViewMultipleImages {
+  font-size: var(--font-size-small);
+  margin-bottom: var(--spacer);
+  min-width: 55vw;
+}
+
+.tagViewOneImage {
+  font-size: var(--font-size-small);
+  margin-bottom: var(--spacer);
+  min-width: 55vw;
+  /* margin-top: 2rem; */
+}
+
+.preview header {
+  margin-bottom: var(--spacer);
+}
+
+.metaFull {
+  display: grid;
+  gap: var(--spacer);
+  grid-template-columns: 1fr 1fr;
+}
+
+.preview [class*='MetaItem-module--metaItem'] h3 {
+  margin-bottom: calc(var(--spacer) / 12);
+}
+
+.description {
+  position: relative;
+  margin-top: calc(var(--spacer) / 4);
+}
+
+.toggle {
+  position: absolute;
+  bottom: 0.15rem;
+  right: 0;
+}
+
+.asset {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  margin-bottom: calc(var(--spacer));
+}

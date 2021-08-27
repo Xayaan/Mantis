@@ -1,0 +1,30 @@
+.LightPadding {
+    background-color: var(--header-background-color);
+    padding-top: 1.2%;
+    padding-bottom: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.PaddingBottom {
+    padding-bottom: 1.5%;
+}
+
+.PaddingTop {
+    padding-top: 1.5%;
+}
+
+.wrapper {
+    padding: 0% 2% 4% 2%;
+}
+
+.newDescriptionHeader {
+    margin-top: 30px;
+}
+
+.noImage {
+    margin-top: 3%;
+}
+
+.paragraphPadding {
+    margin-bottom: 0px;
+}

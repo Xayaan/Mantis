@@ -1,0 +1,7 @@
+.tags {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: calc(var(--spacer)/2);
+    margin-left: calc(var(--spacer)/2);
+  }

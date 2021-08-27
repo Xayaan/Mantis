@@ -1,0 +1,16 @@
+
+.pii {
+    display: flex;
+    justify-content: space-between;
+    background: var(--security-boxes-color);
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .bounties {
+    display: flex;
+    justify-content: space-between;
+    background: var(--bounty-boxes-color);
+    width: 100%;
+    padding: 1rem;
+  }

@@ -1,0 +1,9 @@
+.tagHeading {
+    position: relative; 
+    margin-top: var(--spacer);
+}
+
+.chartPadding {
+    display: table-row; 
+    margin: 2% 2% 2% 2%;
+}

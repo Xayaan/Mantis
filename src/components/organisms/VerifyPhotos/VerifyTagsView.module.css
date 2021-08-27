@@ -1,0 +1,27 @@
+.LightPadding {
+    background-color: var(--header-background-color);
+    padding-top: 1.2%;
+    padding-bottom: 1.5%;
+    margin-bottom: 10px;
+}
+
+.paragraphPadding {
+    margin-bottom: 0px;
+}
+
+.pii {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+.Padding {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.verifyInstruction {
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
